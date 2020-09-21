@@ -10,9 +10,21 @@
     <section class="form__container">
         <form>
             <h5>E-mail:</h5>
-            <input type="email">
+            <p class="email__error"></p>
+            <input 
+                type="text" 
+                name="email" 
+                id="email" 
+            >
+
             <h5>Password:</h5>
-            <input type="password">
+            <p class="password__error"></p>
+            <input 
+                type="password" 
+                name="password" 
+                id="password" 
+                minlength="10" 
+            >
             <button type="submit">Login</button>
         </form>
     </section>
